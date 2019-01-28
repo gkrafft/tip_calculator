@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         percent /= 100
         tip = total * percent
         totalTip = total + tip
+        
 
         val tipResult: TextView = findViewById(R.id.textTip)
         val totalResult: TextView = findViewById(R.id.textTotal)
